@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+}
+
+nav {
+    background-color: black;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Título{
+    margin-top: 10px;
+    font-size: 30px;
+    color: red;
+}
+
+.link-nav{
+    display: flex;
+}
+
+.link-nav li{
+    margin-top: 15px;
+    list-style: none;
+    margin-right: 10px;
+}
+
+.link-nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+.link-nav li a:hover{
+    color: red;
+}
+
+.carousel-item{
+    height: 10%;
+}
+
+#drhouse{
+    text-align: left;
+    left: 10px;
+    bottom: 20%;
+    padding: 0;
+}
+
+#drhouse h5{
+    font-size: 50px;
+}
+
+.btn{
+    width: 12rem;
+    margin-right: 30px;
+    background-color: black;
+    opacity: 80%;
+    border: none;
+} 
+
+.carousel-inner{
+    padding: 0;
+}
+
+h3{
+    color: white;
+    padding: 5px;
+    margin-left: 35px
+}
+
